@@ -3,7 +3,7 @@
     "stepDefinitions": "cypress/e2e/stepDefinitions/**/*.{js,ts}"
   },
   "dependencies": {
-    "@badeball/cypress-cucumber-preprocessor": "^15.1.4"
+    "@badeball/cypress-cucumber-preprocessor": "^15.1.5"
   },
   "devDependencies": {
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",

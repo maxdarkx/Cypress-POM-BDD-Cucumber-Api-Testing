@@ -21,7 +21,7 @@ async function setupNodeEvents(on, config) {
 module.exports = defineConfig({
   e2e: {
     api_users: 'api/users/',
-    api_login: 'api/login'
+    api_login: 'api/login',
     baseUrl: 'https://reqres.in/',
     specPattern: "**/*.feature",
     setupNodeEvents,
