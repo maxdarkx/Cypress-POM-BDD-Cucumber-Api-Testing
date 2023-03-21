@@ -15,7 +15,8 @@ Este repositorio pretende ser una guia basica de trabajo usando Cypress para pro
     - `npm install @badeball/cypress-cucumber-preprocessor`
     - `npm install -D @bahmutov/cypress-esbuild-preprocessor`
 4. La configuracion del cypress es bastante delicada y critica a la hora de ejecutar las pruebas con cypress. Verifique que el archivo `cypress.config.js` contenga la siguiente funcion requerida para el uso del preprocesador para Cucumber:
-```async function setupNodeEvents(on, config) {
+```
+  async function setupNodeEvents(on, config) {
   // This is required for the preprocessor to be able to generate JSON reports after each run, and more,
   await preprocessor.addCucumberPreprocessorPlugin(on, config);
 
