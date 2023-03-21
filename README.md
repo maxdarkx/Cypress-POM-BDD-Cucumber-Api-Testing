@@ -53,4 +53,4 @@ Este repositorio pretende ser una guia basica de trabajo usando Cypress para pro
 
 ![Paso 5](images/cypressStep5.png)
 
-6. Tambien puede ejecutar cypress desde la terminal ubicandose en la carpeta de instalacion del proyecto, y usando el comando `npx cypress run`. De este modo se generaran las evidencias (en video y screenshots) para despues ser consumidas por un servicio CI-CD o manualmente, en las carpetas `cypress/video` y `cypress/screenshots`. Consulte la documentacion de cypress para hacer un mejor uso de la consola en https://docs.cypress.io/guides/guides/command-line.
+6. Tambien puede ejecutar cypress desde la terminal ubicandose en la carpeta de instalacion del proyecto, y usando el comando `npx cypress run`. De este modo se generaran las evidencias (en video y screenshots) para despues ser consumidas por un servicio CI-CD o manualmente, en las carpetas `cypress/video` y `cypress/screenshots`. Consulte la documentación de cypress para hacer un mejor uso de la consola en https://docs.cypress.io/guides/guides/command-line.
