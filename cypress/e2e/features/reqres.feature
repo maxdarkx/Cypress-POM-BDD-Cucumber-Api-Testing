@@ -4,7 +4,7 @@ Feature: reqres.in
     When The user makes a request to list user #2
     Then the request is completed succesfully
 
-  Scenario: Post Request
+  Scenario: Post Register request
     When The user makes a request to register his data
       | name     | job    |
       | morpheus | leader |
